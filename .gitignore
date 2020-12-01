@@ -1,3 +1,6 @@
+# ignores database file
+**/app/src/main/assets/databases/treconsulta.db.zip
+
 # Built application files
 *.apk
 *.aar
@@ -37,18 +40,25 @@ proguard/
 captures/
 
 # IntelliJ
-*.iml
-.idea/workspace.xml
-.idea/tasks.xml
-.idea/gradle.xml
-.idea/assetWizardSettings.xml
-.idea/dictionaries
-.idea/libraries
+**/*.iml
+**/.idea/workspace.xml
+**/.idea/tasks.xml
+**/.idea/gradle.xml
+**/.idea/assetWizardSettings.xml
+**/.idea/dictionaries
+**/.idea/libraries
 # Android Studio 3 in .gitignore file.
-.idea/caches
-.idea/modules.xml
+**/.idea/caches
+**/.idea/modules.xml
 # Comment next line if keeping position of elements in Navigation Editor is relevant for you
-.idea/navEditor.xml
+**/.idea/navEditor.xml
+**/.gradle
+**/local.properties
+**/.DS_Store
+**/build
+**/captures
+**/.externalNativeBuild
+**/.cxx
 
 # Keystore files
 # Uncomment the following lines if you do not want to check your keystore files in.
