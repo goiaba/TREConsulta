@@ -1,6 +1,9 @@
 # ignores database file
 **/app/src/main/assets/databases/treconsulta.db.zip
 
+# initially ignores whole .idea folder
+**/.idea/
+
 # Built application files
 *.apk
 *.aar
